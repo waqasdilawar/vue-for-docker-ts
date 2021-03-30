@@ -1,4 +1,4 @@
-# vue-for-docker-v3
+# vue-for-docker-v2
 
 ## Project setup
 ```
