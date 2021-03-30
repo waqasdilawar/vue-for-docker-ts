@@ -27,3 +27,17 @@ yarn lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## For Docker 
+
+### Build the image
+```
+docker build -t nginx-vue-v2-ts .
+```
+### Run the container
+```
+docker run -p 8080:80 nginx-vue-v2-ts
+```
+### Browse the application [at](http://localhost:8080/)
+
+
